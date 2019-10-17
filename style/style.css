@@ -1,0 +1,654 @@
+.container {                                             
+	margin: 0 auto 0 auto;
+	width: 1200px;
+  background-color: white;
+}
+
+.first-background-image {
+ background-image: url("../image/1.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  height: 40em;
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  /*position: relative;*/
+}
+.second-background-image {
+    background-image: url(../image/1.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    height: 268px;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.floatleft-and-floatright{
+	padding-top: 5px;
+padding-right: 80px;
+padding-left: 60px;
+
+}
+.floatright .font-change{
+	font-family: arial;
+}
+.floatleft{
+	padding-left: 35px;	
+	float: left;
+}
+.floatright{
+	padding-right: 20px;
+	font-family: arial;
+	float: right;
+}
+.social-logo-width{
+width: 20px;
+height: 20px;
+}
+.for-selected{
+	background-color: black;
+	 opacity: 0.4;
+	padding: 0;
+	margin: 0;
+	color: white;
+
+}
+.common-properties-for-logo-image{
+	padding-left: 10px;
+    width: 20px;
+	height:20px; 
+}
+.for-white-logo{
+	font-family: arial;
+	color: white;
+	font-size: 15px;
+}
+.consuloan-logo {
+    color: #00529c;
+    font-family: arial;
+    font-size: 28px;
+     font-weight: bold;
+   
+}
+.consuloan-logo img {
+    margin-top: 14px;
+    margin-left: 5px;
+    height: 23px;
+    width: 37px;
+}
+.navbar {
+    clear: both;
+    /* display: inline-block; */
+    background-color: white;
+    color: #00529c;
+    width: 68%;
+    margin-top: 60px;
+    margin-left: 96px;
+    font-family: arial;
+}
+.navbar a {
+    /* margin-right: 0; */
+    padding-right: 0;
+    padding-left: 11px;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.green-navbar {
+    color: white;
+    width: 15%;
+    background-color: green;
+    font-family: arial;
+    padding: 22px;
+    margin-top: -44px;
+    margin-left: 816px;
+    font-size: 16px;
+}
+.heading h1{
+
+	width: 70%;
+	 margin-top: 120px;
+	margin-left: 190px;
+	/*margin-right: 50px;*/
+	font-family: arial;
+	color: white;
+	font-size: 60px;
+
+}
+
+.subheading {
+    width: 60%;
+    margin-top: -22px;
+    margin-left: 210px;
+    font-family: arial;
+    color: white;
+    font-size: 16px;
+}
+.button { 
+	margin-left: 25em;
+	 text-decoration: none;
+  display: inline-block;
+}
+.button > span { 
+	margin-left: 15px;
+}
+
+
+.button-1{
+	background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+    font-family: arial;
+    font-size: 16px;
+  padding: 16px 33px;
+  text-align: center;
+}
+.button-2{
+	background-color: black;
+	 opacity: 0.6;
+	 border:2px;
+  border-color: white;
+  color: white;
+    font-family: arial;
+    font-size: 16px;
+  padding: 15px 32px;
+  text-align: center;
+}
+.banner {
+	width: 100%;
+	height: 50em;
+}
+
+/*.banner > div{
+ display: inline-block;
+}*/
+.banner > div {
+	display: inline-block;
+  width:33.33334%;
+}
+.banner-1 {
+    margin-top: 64px;
+    padding: 0;
+    width: 33%;
+    height: 500px;
+    background-color: white;
+    float: left;
+}
+
+.banner-subpart-1 h6 {
+    color: #00529c;
+    margin-top: 36px;
+    margin-left: 0px;
+}
+.banner-subpart-1 img {
+    margin-left: 51px;
+    height: 15px;
+    width: 15px;
+}
+
+.paragraph {
+   display: inline-block;
+    font-size: 35px;
+    color: #00529c;
+    padding-left: -21px;
+    margin-left: 14px;
+}
+
+
+
+.banner-2{
+  margin-top: 64px;
+  padding-left: 0;
+   height: 500px;
+	background-color: white;
+  
+}
+
+.banner-2 img {
+    margin-top: 64px;
+    height: 436px;
+    width: 401px;
+}
+.banner-3{
+    margin-top: 64px;
+  padding-left: 0;
+   height: 500px;
+  background-color: white;
+  float: right;
+  text-align: left;
+}
+
+.paragraph-1 {
+    display: inline-block;
+    font-size: 35px;
+    color: #00529c;
+    margin-left: 9px;
+}
+.para1 p{
+  font-size: 16px;
+ color: #00529c;
+
+}
+
+.banner-subpart-31 img{
+    height: 15px;
+    width: 15px;
+}
+.banner-subpart-31 h6 {
+     color: #00529c;
+    margin-left: 0px;
+}
+/*.banner-subpart-31 p{
+  color: #00529c;
+  font-size: 16px;
+
+}
+*/
+.para3 p {
+    margin-left: -102px;
+    font-size: 16px;
+    color: #00529c;
+}
+.shadow-used {
+  width: 75%;
+  float: left;
+  margin-left: 150px;
+  display: inline;
+  box-shadow: 0px 25px 50px -12px rgba(0 , 0 , 0 , 0.60);
+}
+/*----------------------------------*/
+.heading-paragraph{
+
+}
+
+.gloabalpic {
+    height: 30px;
+    width: 33px;
+    margin-top: 60px;
+    margin-left: 113px;
+}
+
+.global1 h6 , p{
+ text-align: center;
+  font-family: arial;
+  font-size: 16px;
+  color: #00529c;
+}
+.global2  p , h6{
+ text-align: center;
+  font-family: arial;
+  font-size: 16px;
+  color: white;
+}
+
+.paragraph-heading1 >  p {
+text-align: center;
+  font-family: arial;
+  font-size: 16px;
+  color: white;
+
+}
+/*-------*/
+.shadow-used > div {
+    display: inline-block;
+    width: 297px;
+    background-color: white;/*//this is important*//*this will will-change: the color of 3div*/
+    
+    margin-top: -101px;
+    float: left;
+    height: 268px;
+}
+.third-background-image {
+  margin: 0;
+    background-image: url(../image/1.jpg);
+    background-size: cover;
+    height: 400px;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.white-colour {
+    margin-left: 166px;
+    color: white;
+    font-size: 67px;
+    font-weight: bold;
+}
+.green-colour{
+  color: green;
+   font-size: 67px;
+    font-weight: bold;
+}
+.paragraph-from-3rd-div {
+    margin-top: 32px;
+    margin-left: 180px;
+    width: 80%;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+}
+.paragraph-from-3rd {
+    margin-left: 32px;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+}
+.line {
+    margin-top: -69px;
+    margin-left: 10px;
+}
+.line2 {
+    margin-top: 33px;
+    margin-left: 117px;
+    width: 60%;
+   
+}
+.line3 {
+    margin-top: 33px;
+    margin-left: 148px;
+    width: 60%;
+}
+.line2-line2 {
+    width: 80%;
+    padding-top: 11px;
+    margin-left: 68px;
+    color: green;
+    width: 80%;
+    font-family: arial;
+    font-size: 16px;
+    font-size: 62px;
+    font-weight: bold;
+}
+.excla {
+    width: 24%;
+    margin-left: 592px;
+    color: green;
+    font-size: 100px;
+}
+
+
+.excla-1 {
+    font-family: arial;
+    font-size: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    color: #00529c;
+    margin-top: -59px;
+}
+.para4th {
+    width: 80%;
+    margin-left: 139px;
+    font-family: arial;
+    font-size: 16px;
+}
+.image-part {
+    width: 21%;
+    margin-top: 35px;
+    margin-left: 443px;
+   
+}
+/*---------------------------------------------------------*/
+.happy-client{
+  height: 500px;
+  background-color: white;
+}
+.common img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.common-not img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.avtaar-name {
+    width: 8%;
+    margin-top: 12px;
+    margin-left: 33em;
+    color: #00529c;
+    font-weight: bold;
+    /* text-align: center; */
+    font-family: arial;
+}
+.image-5-star {
+  width: 20%;
+}
+.image-5-star img {
+    margin-top: -3px;
+    margin-left: 531px;
+    height: 28px;
+    width: 77px;
+}
+
+.ceo-name{
+  width: 15%;
+   margin-left: 32em;
+   color: black;
+    font-family: arial;
+}
+.insidediv{
+  background-color: white;
+}
+.headerset {
+
+    color: #00529c;
+    margin-left: 18em;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 27px;
+}
+
+.gallary {
+
+  background-color: red;
+}
+.gallary > div {
+
+    width: 24%;
+    display: inline-block;
+    float: left;
+
+}
+.galary-set img {
+    padding: 91px;
+    height: 196px;
+    width: 196px;
+}
+.galary-different {
+    margin-top: 122px;
+    margin-left: 20px;
+}
+ .paragrapha{
+  font-family: arial;
+  font-size: 16px;
+  color: #00529c;
+ }
+ .heading-working {
+  font-family: arial;
+  font-size: 32px;
+  color: #00529c;
+
+}
+
+/*-----------------------------------------------------------------------*/
+.fourth-background-please-work{
+ background-image: url("../image/1.jpg");
+  background-color: green;
+  background-size: cover;
+  height: 29em;
+  background-position: center;
+  background-size: cover;
+}
+
+.white-colour-logo{
+    margin-left: 15px;
+    color: white;
+    font-family: arial;
+    font-size: 50px;
+    font-weight: bold;
+}
+.green-col-logo{
+  margin-left: 166px;
+  color: green;
+   font-size: 50px;
+    font-weight: bold;
+}
+
+.line-line-line {
+    margin-left: -18px;
+    padding-top: 99px;
+}
+
+.para-end {
+    margin-top: 19px;
+    margin-left: 150px;
+    width: 40%;
+    color: white;
+    font-family: arial;
+    font-size: 16px;
+}
+.formdata {
+    width: 14%;
+    opacity: .4;
+    margin-top: -239px;
+    margin-left: 41em;
+    background-color: black;
+    padding: 78px;
+}
+.green-col {
+    color: white;
+    height: 29px;
+    width: 163px;
+    background-color: green;
+    font-family: arial;
+    font-size: 16px;
+}
+
+
+.before-footer-next {
+    display: inline-block;
+    margin-top: 0;
+    width: 6%;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 127px;
+
+}
+
+
+.before-footer {
+    clear: both;
+    background-color: #D3D3D3;
+}
+
+.footer{
+  background-color: #000080;
+  padding: 138px;
+  opacity: .8;
+}
+.footer > .footer-last {
+    width: 225px;
+    display: inline-block;
+}
+
+.hey-i-am-heading img{
+height: 30px;
+width: 30px;
+}
+.consuloan-set{
+font-family: arial;
+font-size: 30px;
+}
+.this-para{
+  color: white;
+}
+
+.footer1stpart {
+  color: white;
+  font-family: arial;
+  font-size: 24px;
+}
+.footer2ndpart{
+ color: white;
+  font-family: arial;
+  color: white;
+  font-size: 16px;
+}
+.footer3rdpart{
+ color: white;
+  font-family: arial;
+  color: white;
+  font-size: 16px;
+}
+.footer4rtpart{
+  padding-top: 15px;
+ color: white;
+  font-family: arial;
+  color: white;
+  font-size: 16px;
+}
+.Subscribe-green{
+
+   background-color: green;
+    color: white;
+    width: 160px;
+}
+.location-contact-email{
+  height: 10px;
+  width: 10px;
+}
+.footer > div{
+
+}
+.hey-i-am-heading > div {
+    padding-bottom: 25px;
+    width: 24%;
+    display: inline-block;
+    font-family: arial;
+    color: white;
+}
+.logo-end >div{
+  display: inline-block;
+}
+
+.logo-end{
+  width: 30%;
+  margin-left: 40em;
+  background-color:  #000080;
+}
+.logo-end img {
+   
+    margin-top: -16px;
+    height: 30px;
+    width: 30px;
+}
+.itwouldgreen{
+  color: green;
+  font-family: arial;
+  font-size: 18px;
+}
+
+.copyright{
+  width: 40%;
+color: white;
+  font-family: arial;
+  font-size: 16px;
+}
+
+.endisgood {
+    margin-left: 141px;
+    width: 40%;
+    color: white;
+    font-family: arial;
+}
+.end{
+  background-color:  #000080;
+}
+
+
+
+
+
